@@ -6,7 +6,7 @@ public class PipeArray {
         int[] resultArray = pipeFix(testArray);
         System.out.println(Arrays.toString(resultArray));
 
-        System.out.println("Love Aleksandr");
+//        System.out.println("Love Aleksandr");
     }
 
 
