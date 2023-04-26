@@ -5,6 +5,8 @@ public class PipeArray {
         int[] testArray = {-1,4};
         int[] resultArray = pipeFix(testArray);
         System.out.println(Arrays.toString(resultArray));
+
+        System.out.println("Love Aleksandr");
     }
 
 
@@ -24,5 +26,7 @@ public class PipeArray {
             }
             return resultArray;
         }
+
+
 
 }
