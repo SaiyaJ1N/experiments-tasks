@@ -8,7 +8,7 @@ public class Isogram {
         if(str.length() == 0){
             return true;
         }
-            String newS = "" + str.charAt(0);
+            String newStr = "" + str.charAt(0);
             for(int i = 1; i < str.length(); i++){
                 newStr += str.charAt(i);
                 for(int j = 0; j < i; j++){
