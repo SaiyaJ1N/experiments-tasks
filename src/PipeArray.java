@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class PipeArray {
     public static void main(String[] args) {
-        int[] testArray = {-1,4};
+        int[] testArray = {1,4};
         int[] resultArray = pipeFix(testArray);
         System.out.println(Arrays.toString(resultArray));
         System.out.println("Hello-World!");
