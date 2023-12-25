@@ -5,7 +5,7 @@ public class Isogram {
     }
 
     public static boolean isIsogram(String str) {
-        if (str.length() == 0) {
+        if (str.isEmpty()) {
             return true;
         }
         String newStr = "" + str.charAt(0);
